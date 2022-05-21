@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="container header__container">
             <a href="index.html" class="header__logo logo">
                 <img src="images/logo.png" alt="Konstruct" class="logo__image">
@@ -29,24 +29,24 @@
             </a>
             <ul class="menu__items">
                 <li class="menu__item">
-                    <a href="#">Home</a>
+                    <a href="#home">Home</a>
                 </li>
                 <li class="menu__item">
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li class="menu__item">
-                    <a href="#">Services</a>
+                    <a href="#capabilities">Services</a>
                 </li>
                 <li class="menu__item">
-                    <a href="#">Work</a>
+                    <a href="#contact">Work</a>
                 </li>
                 <li class="menu__item">
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container about__container">
             <h2 class="about__title">Наша история</h2>
             <div class="about__content">
@@ -73,6 +73,116 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="capabilities" id="capabilities">
+        <div class="container capabilities__container">
+            <div class="capabilities__text">
+                <h2 class="capabilities__title">Наши способности</h2>
+                <p class="capabilities__subtitle">
+                    Повседневная практика показывает, что синтетическое тестирование 
+                    говорит о возможностях укрепления моральных ценностей.
+                </p>
+                <button class="capabilities__button button">Наши услуги</button>
+            </div>
+            <div class="capabilities__cards">
+                <div class="capabilities__card card">
+                    <img src="images/card-1.png" alt="" class="card__image">
+                    <h3 class="card__title">Управление проектом и конструированием</h3>
+                    <p class="card__subtitle">
+                        В своём стремлении улучшить пользовательский опыт мы упускаем,
+                        что акционеры крупнейших компаний неоднозначны и будут предоставлены сами себе.
+                    </p>
+                </div>
+                <div class="capabilities__card card">
+                    <img src="images/card-2.png" alt="" class="card__image">
+                    <h3 class="card__title">Аудит и поддержка объектов</h3>
+                    <p class="card__subtitle">
+                        В своём стремлении улучшить пользовательский опыт мы упускаем,
+                        что акционеры крупнейших компаний неоднозначны и будут предоставлены сами себе.
+                    </p>
+                </div>
+                <div class="capabilities__card card">
+                    <img src="images/card-3.png" alt="" class="card__image">
+                    <h3 class="card__title">Моделирование и строительство фабрик</h3>
+                    <p class="card__subtitle">
+                        В своём стремлении улучшить пользовательский опыт мы упускаем,
+                        что акционеры крупнейших компаний неоднозначны и будут предоставлены сами себе.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container contact__container">
+            <h2 class="contact__title">Хотите построить<br> что-нибудь невероятное?</h2>
+            <div class="contact__button button">Связаться</div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <div class="newsletter__container container">
+            <h3 class="newsletter__title">
+                Подписка на Рассылку
+            </h3>
+            <form action="#" class="nesletter__form form">
+                <input type="email" class="form__input" placeholder="test@youremail.com">
+                <button type="submit" class="form__button button">Подписаться</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__text">
+                <h4 class="footer__title">Company</h4>
+                <a href="index.html" class="footer__logo logo">
+                    <img src="images/logo.png" alt="Konstruct" class="logo__image">
+                </a>
+                <p class="footer__subtitle">
+                    Внедрение современных методик не даёт нам иного выбора, 
+                    кроме определения направлений прогрессивного развития.
+                </p>
+            </div>
+            <div class="footer__links links">
+                <h4 class="links__title">Ссылки</h4>
+                <ul class="links__items">
+                    <li class="links__item"><a href="#">Главная</a></li>
+                    <li class="links__item"><a href="#">О нас</a></li>
+                    <li class="links__item"><a href="#">Услуги</a></li>
+                    <li class="links__item"><a href="#">Проекты</a></li>
+                    <li class="links__item"><a href="#">Связаться</a></li>
+                    <li class="links__item"><a href="#">FAQ</a></li>
+                    <li class="links__item"><a href="#">Условия</a></li>
+                    <li class="links__item"><a href="#">Работа</a></li>
+                    <li class="links__item"><a href="#">Блог</a></li>
+                    <li class="links__item"><a href="#">Партнеры</a></li>
+                    <li class="links__item"><a href="#">Новости</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <h4 class="footer__title">Связаться с нами</h4>
+                <p class="footer__address">Овчинниковская улица, 18, Москва, 115184, Россия</p>
+                <p class="footer__phone">+7 999 123 45 67</p>
+                <p class="footer__email">info@konstruct.com</p>
+            </div>
+            <div class="footer__socials">
+                <a href="#" class="footer__social">
+                    <img src="images/fb.svg" alt="FB">
+                </a>
+                <a href="#" class="footer__social">
+                    <img src="images/tw.svg" alt="Twitter">
+                </a>
+                <a href="#" class="footer__social">
+                    <img src="images/google.svg" alt="Google">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <section class="copywrite">
+        <div class="copywrite__container container">
+            <p class="copywrite__text">
+                © 2022 Konstruct Inc. Сайт сделал
+                <a href="https://portfolio.nizrum.ru" target="_blank">Nizrum</a>
+            </p>
         </div>
     </section>
 </body>

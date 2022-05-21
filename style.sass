@@ -75,14 +75,15 @@ body
         line-height: 14px
         letter-spacing: 1.09px
         text-transform: uppercase
-        a 
+        a
             text-decoration: none
             color: #48555B
             &:hover
                 color: #00A4E5
 
 .about
-    padding: 60px 0 120px
+    padding: 60px 0 60px
+    margin-bottom: 60px
     &__container
         text-align: center
     &__content
@@ -125,7 +126,7 @@ body
         align-items: center
         justify-content: space-between
         width: 459px
-    
+
 .step
     width: 140px
     height: 224px
@@ -142,3 +143,196 @@ body
         background-image: url(images/manage-bg.jpg)
     &_3
         background-image: url(images/build-bg.jpg)
+
+.capabilities
+    margin-bottom: 115px
+    &__text
+        display: flex
+        align-items: center
+        justify-content: space-between
+        margin-bottom: 80px
+    &__subtitle
+        width: 460px
+        font-size: 11px
+        line-height: 19px
+        letter-spacing: 0.2px
+        color: #48555B
+    &__title
+        font-size: 18px
+        line-height: 21px
+        letter-spacing: 2.30625px
+        color: #48555B
+        text-transform: uppercase
+        position: relative
+        &::after
+            content: ''
+            position: absolute
+            bottom: -12px
+            left: 0
+            background-color: #00A4E5
+            width: 50px
+            height: 2px
+    &__cards
+        display: flex
+        align-items: center
+        justify-content: space-between
+
+.button
+    background-color: #00A4E5
+    font-size: 13px
+    line-height: 15px
+    padding: 11px 29px
+    text-transform: uppercase
+    text-align: center
+    letter-spacing: 0.5px
+    color: #FFFFFF
+    border: none
+    font-weight: bold
+    cursor: pointer
+    &:hover
+        background-color: #0092cc
+
+.card
+    border: 1px solid #E6E6E6
+    padding: 38px 22px
+    width: 295px
+    &__image
+        height: 75px
+        margin-bottom: 25px
+    &__title
+        font-size: 16px
+        line-height: 24px
+        letter-spacing: 0.43px
+        color: #48555B
+        text-transform: uppercase
+        margin: 0
+        margin-bottom: 13px
+
+.contact
+    background-image: url(images/contact-bg.jpg)
+    padding: 120px 0 230px
+    background-size: cover
+    &__container
+        display: flex
+        flex-direction: column
+        align-items: center
+    &__title
+        font-size: 30px
+        line-height: 36px
+        letter-spacing: 0.15px
+        color: #48555B
+        text-align: center
+        width: 450px
+        margin: 0
+        margin-bottom: 35px
+    &__button
+        display: inline-block
+
+.newsletter
+    padding: 30px 0
+    background-color: #171819
+    &__container
+        display: flex
+        align-items: center
+        justify-content: space-between
+        width: 685px
+    &__title
+        font-size: 22px
+        line-height: 26px
+        letter-spacing: 0.846px
+        color: #FFFFFF
+
+.form
+    display: flex
+    align-items: center
+    &__input
+        padding: 10px 16px 9px
+        border: none
+        margin: 0
+
+.footer
+    padding: 42px 0 50px
+    background-color: #141A20
+    color: #ffffff
+    &__container
+        display: flex
+        align-items: start
+        justify-content: space-between
+    &__text
+        width: 250px
+    &__title
+        font-size: 11px
+        line-height: 13px
+        letter-spacing: 0.85px
+        color: #FFFFFF
+        text-transform: uppercase
+        font-weight: normal
+        margin: 0
+        margin-bottom: 19px
+    &__subtitle
+        font-size: 11px
+        line-height: 19px
+        letter-spacing: 0.85px
+        color: #FFFFFF
+        margin: 0
+        margin-top: 15px
+    &__contact
+        width: 140px
+        font-size: 11px
+        line-height: 16px
+        letter-spacing: 0.846154px
+        p
+            margin: 0
+            margin-bottom: 20px
+    &__email
+        margin: 0
+    &__socials
+        width: 87px
+        display: flex
+        align-items: center
+        justify-content: space-between
+    &__social
+        text-decoration: none
+        font-size: 0
+        background-color: transparent
+        img
+            width: 12px
+
+.links
+    width: 262px
+    height: 150px
+    &__title
+        font-size: 11px
+        line-height: 13px
+        letter-spacing: 0.85px
+        color: #FFFFFF
+        text-transform: uppercase
+        font-weight: normal
+        margin-bottom: 19px
+        margin: 0
+        margin-bottom: 19px
+    &__items
+        list-style: none
+        display: flex
+        align-items: center
+        justify-content: space-between
+        flex-wrap: wrap
+        padding: 0
+    &__item
+        width: 75px
+        text-transform: uppercase
+        font-size: 11px
+        line-height: 25px
+        letter-spacing: 0.846154px
+        a
+            text-decoration: none
+            color: #ffffff
+
+.copywrite
+    background-color: #171819
+    padding: 22px 0
+    color: #ffffff
+    &__container
+        text-align: center
+    a
+        color: #ffffff
