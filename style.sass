@@ -23,14 +23,17 @@ body
     background-color: #141A20
     padding: 40px 0 70px
     color: #fff
+
     &__container
         display: flex
         flex-direction: column
         align-items: center
         justify-content: space-between
         height: 100%
+
     &__text
         text-align: center
+
     &__title
         font-weight: 700
         font-size: 60px
@@ -38,38 +41,41 @@ body
         letter-spacing: 1px
         text-transform: uppercase
         margin: 0
+
     &__subtitle
         font-size: 16px
         line-height: 19px
         font-weight: 400
         margin: 0
+
     &__scroll-text
         font-size: 11px
         line-height: 13px
         letter-spacing: 3.7px
         text-transform: uppercase
 
-.logo
-    &__image
+.logo__image
         width: 102px
 
-.logo-black
-    &__image
+.logo-black__image
         width: 80px
 
 .menu
     padding: 24px 0
     border-bottom: 1px solid #E6E6E6
+
     &__container
         display: flex
         justify-content: space-between
         align-items: center
+
     &__items
         list-style: none
         display: flex
         align-items: center
         justify-content: space-between
         width: 410px
+
     &__item
         font-size: 12px
         line-height: 14px
@@ -84,13 +90,16 @@ body
 .about
     padding: 60px 0 60px
     margin-bottom: 60px
+
     &__container
         text-align: center
+
     &__content
         display: flex
         align-items: end
         justify-content: space-between
         text-align: left
+
     &__title
         font-size: 18px
         line-height: 21px
@@ -109,8 +118,10 @@ body
             width: 50px
             height: 2px
             background-color: #00a4e5
+
     &__text
         width: 405px
+
     &__subtitle
         font-size: 20px
         line-height: 28px
@@ -119,8 +130,10 @@ body
         margin: 0 0 30px 0
         span
             color: #00a4e5
+
     &__para
         margin: 0
+
     &__steps
         display: flex
         align-items: center
@@ -137,26 +150,32 @@ body
     font-weight: 700
     text-transform: uppercase
     word-wrap: break-word
+
     &_1
         background-image: url(images/plan-bg.jpg)
+
     &_2
         background-image: url(images/manage-bg.jpg)
+
     &_3
         background-image: url(images/build-bg.jpg)
 
 .capabilities
     margin-bottom: 115px
+
     &__text
         display: flex
         align-items: center
         justify-content: space-between
         margin-bottom: 80px
+
     &__subtitle
         width: 460px
         font-size: 11px
         line-height: 19px
         letter-spacing: 0.2px
         color: #48555B
+
     &__title
         font-size: 18px
         line-height: 21px
@@ -172,9 +191,10 @@ body
             background-color: #00A4E5
             width: 50px
             height: 2px
+
     &__cards
         display: flex
-        align-items: center
+        align-items: start
         justify-content: space-between
 
 .button
@@ -196,9 +216,11 @@ body
     border: 1px solid #E6E6E6
     padding: 38px 22px
     width: 295px
+
     &__image
         height: 75px
         margin-bottom: 25px
+
     &__title
         font-size: 16px
         line-height: 24px
@@ -212,10 +234,12 @@ body
     background-image: url(images/contact-bg.jpg)
     padding: 120px 0 230px
     background-size: cover
+
     &__container
         display: flex
         flex-direction: column
         align-items: center
+
     &__title
         font-size: 30px
         line-height: 36px
@@ -225,17 +249,20 @@ body
         width: 450px
         margin: 0
         margin-bottom: 35px
+
     &__button
         display: inline-block
 
 .newsletter
     padding: 30px 0
     background-color: #171819
+
     &__container
         display: flex
         align-items: center
         justify-content: space-between
         width: 685px
+
     &__title
         font-size: 22px
         line-height: 26px
@@ -245,21 +272,26 @@ body
 .form
     display: flex
     align-items: center
+
     &__input
         padding: 10px 16px 9px
         border: none
+        border-radius: 0
         margin: 0
 
 .footer
     padding: 42px 0 50px
     background-color: #141A20
     color: #ffffff
+
     &__container
         display: flex
         align-items: start
         justify-content: space-between
+
     &__text
         width: 250px
+
     &__title
         font-size: 11px
         line-height: 13px
@@ -269,6 +301,7 @@ body
         font-weight: normal
         margin: 0
         margin-bottom: 19px
+
     &__subtitle
         font-size: 11px
         line-height: 19px
@@ -276,6 +309,7 @@ body
         color: #FFFFFF
         margin: 0
         margin-top: 15px
+
     &__contact
         width: 140px
         font-size: 11px
@@ -284,13 +318,16 @@ body
         p
             margin: 0
             margin-bottom: 20px
+
     &__email
         margin: 0
+
     &__socials
         width: 87px
         display: flex
         align-items: center
         justify-content: space-between
+
     &__social
         text-decoration: none
         font-size: 0
@@ -301,6 +338,7 @@ body
 .links
     width: 262px
     height: 150px
+
     &__title
         font-size: 11px
         line-height: 13px
@@ -311,6 +349,7 @@ body
         margin-bottom: 19px
         margin: 0
         margin-bottom: 19px
+
     &__items
         list-style: none
         display: flex
@@ -318,6 +357,7 @@ body
         justify-content: space-between
         flex-wrap: wrap
         padding: 0
+
     &__item
         width: 75px
         text-transform: uppercase
@@ -327,12 +367,343 @@ body
         a
             text-decoration: none
             color: #ffffff
+            &:hover
+                color: #00a4e5
 
 .copywrite
     background-color: #171819
     padding: 22px 0
     color: #ffffff
+
     &__container
         text-align: center
     a
         color: #ffffff
+
+@media screen and ( max-width: 992px )
+
+    .container
+        width: 700px
+
+    body
+        font-size: 12px
+        line-height: 21px
+    
+    .header__title
+        font-size: 48px
+        line-height: 70px
+
+    .about
+
+        &__content
+            flex-wrap: wrap
+            justify-content: center
+
+        &__title
+            margin-bottom: 60px
+            font-size: 16px
+            line-height: 18px
+
+        &__text
+            margin-bottom: 35px
+            text-align: center
+
+        &__subtitle
+            font-size: 16px
+            line-height: 22px
+            margin-bottom: 15px
+    
+    .capabilities
+
+        &__subtitle
+            font-size: 10px
+            line-height: 16px
+            width: 300px
+
+        &__title
+            font-size: 16px
+            left: 18px
+            width: 170px
+
+    .button
+        padding: 10px 22px
+
+    .card
+        width: 220px
+        padding: 30px 20px
+
+        &__image
+            height: 60px
+            margin-bottom: 15px
+
+        &__title
+            font-size: 12px
+            line-height: 20px
+            margin-bottom: 10px
+
+        &__subtitle
+            margin: 0
+
+    .contact
+        padding: 100px 0 200px
+
+    .form__input
+        padding: 9px 16px 8px
+
+    .links
+        width: 175px
+
+    .footer__socials
+        width: 70px
+
+@media screen and ( max-width: 767px )
+    
+    .container
+        width: 500px
+
+    .header
+        
+        &__title
+            font-size: 36px
+            line-height: 50px
+
+        &__subtitle
+            font-size: 14px
+            line-height: 18px
+
+    .menu__items
+        width: 400px
+
+    .about
+        padding: 60px 0px 40px
+        margin-bottom: 40px
+
+        &__title
+            margin-bottom: 45px
+
+        &__text
+            width: 100%
+
+        &__steps
+            width: 100%
+
+    .step
+        height: 180px
+
+    .capabilities
+        margin-bottom: 75px
+
+        &__subtitle
+            display: none
+
+        &__title
+            width: 250px
+
+        &__text
+            margin-bottom: 40px
+
+    .card
+        width: 160px
+        padding: 20px 11px
+
+        &__image
+            height: 45px
+            margin-bottom: 12px
+
+        &__title
+            font-size: 12px
+            line-height: 18px
+            margin-bottom: 8px
+
+        &__subtitle
+            font-size: 11px
+            line-height: 18px
+
+    .contact
+        padding: 80px 0 160px
+
+        &__title
+            font-size: 24px
+            line-height: 30px
+            margin-bottom: 30px
+
+    .newsletter__title
+        font-size: 18px
+        line-height: 20px
+
+    .form__input
+        width: 150px
+
+    .footer
+        
+        &__container
+            flex-wrap: wrap
+            justify-content: space-around
+
+        &__text
+            width: 45%
+            margin-bottom: 50px
+
+        &__links
+            width: 45%
+            margin-bottom: 50px
+
+@media screen and ( max-width: 575px)
+    
+    .container
+        width: 90%
+
+    .header__title
+        font-size: 32px
+        line-height: 50px
+
+    .menu__items
+        width: 80%
+
+    .step
+        width: 32%
+
+    .capabilities
+        margin-bottom: 40px
+
+        &__cards
+            flex-wrap: wrap
+            justify-content: space-around
+
+    .card
+        width: 45%
+        margin-bottom: 20px
+
+    .contact
+        padding: 60px 0px 180px
+
+    .newsletter
+
+        &__container
+            flex-wrap: wrap
+            justify-content: center
+
+        &__title
+            margin: 0
+            margin-bottom: 25px
+
+    .form
+        width: 80%
+
+        &__input
+            width: 100%
+
+@media screen and ( max-width: 480px )
+    
+    .header
+        padding-bottom: 90px
+        
+        &__title
+            font-size: 30px
+            line-height: 42px
+            margin-bottom: 20px
+
+        &__subtitle
+            font-size: 12px
+            line-height: 16px
+
+    .menu
+        padding: 18px 0
+
+        &__logo
+            display: none
+
+        &__items
+            width: 95%
+            padding: 0
+            margin: auto
+
+        &__item
+            font-size: 10px
+            line-height: 12px
+
+    .about
+        padding: 40px 0px 30px
+
+        &__title
+            margin-bottom: 35px
+
+        &__steps
+            flex-wrap: wrap
+            justify-content: space-around
+
+    .step
+        width: 45%
+        margin-bottom: 16px
+        font-size: 14px
+        line-height: 20px
+
+    .capabilities
+
+        &__text
+            flex-wrap: wrap
+            justify-content: center
+            text-align: center
+
+        &__title
+            margin-bottom: 30px
+            margin-left: -35px
+            width: 100%
+            &::after
+                left: calc(50% - 25px)
+
+    .card
+        width: 100%
+        padding: 25px 25px
+
+    .contact
+        padding-top: 40px
+        
+        &__title
+            width: 100%
+            font-size: 20px
+            line-height: 24px
+            margin-bottom: 25px
+
+    .footer
+
+        &__text
+            width: 100%
+
+        &__links
+            width: 100%
+
+        &__address
+            width: 100%
+
+    .links
+
+        &__items
+            width: 100%
+
+        &__item
+            width: 33%
+
+@media screen and ( max-width: 320px )
+    
+    .header__title
+        font-size: 24px
+        line-height: 36px
+        margin-bottom: 15px
+
+    .menu
+        padding-bottom: 8px
+
+        &__items
+            flex-wrap: wrap
+            justify-content: space-around
+
+        &__item
+            width: 33%
+            margin-bottom: 10px
+            text-align: center
+
+    .step
+        font-size: 12px
+        line-height: 18px
+        height: 150px
