@@ -398,11 +398,7 @@ body {
 .footer__social {
   text-decoration: none;
   font-size: 0;
-  background-color: transparent;
-}
-
-.footer__social img {
-  width: 12px;
+  display: block;
 }
 
 .links {
